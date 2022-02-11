@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Service from './components/Service';
+import Approach from './components/Approach';
+
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+/* 
+-display navbar at the top of the page fixed for all the pages
+    *figure out the react router of how to implement showing the navbar at the top at all times   
+*/
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route exact path="/service">
+        <Service />
+      </Route>
+      {/* <Route exact path="/">
+        <Approach />
+      </Route> */}
+    </Router>
   );
 }
 
