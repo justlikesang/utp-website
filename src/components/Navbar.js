@@ -10,7 +10,6 @@ const Navbar = () => {
           <button type="button" className="nav-toggle" id="nav-toggle">
             <FaBars />
           </button>
-          {/* nav links start here */}
           <ul class="nav-links" id="nav-links">
             <li className="nav-link scroll-link">
               <Link to="/" style={{ color: 'white' }}>
