@@ -61,27 +61,17 @@ const Home = () => {
         <div className="section-center home-center">
           <aritcle className="home-img">
             <img
-              src="./images/home-photo2-1.jpg"
+              src="./images/home-photo3-3.jpg"
               className="home-photo home-photo-two"
               alt="about"
             />
-            <h4>special services for technology & healthcare</h4>
+            <h4>need a hand?</h4>
           </aritcle>
-          <article className="home-info">
-            <h3>
-              We provide outcomes that go beyond expectations through
-              differentiated access to Capital Raise, M&A and Strategic
-              Consulting
-            </h3>
-            <p>
-              We pinpoint, dots-connect and advise to unite Healthcare and
-              Technology private companies with Capitals and Partners across The
-              Pacific.
-            </p>
-            <p className="second-p">
-              Having Deep Understanding in our clients and cut Synergistic Deals
-              with fitting Capitals and Partners.
-            </p>
+          <article className="home-info info-three">
+            <h3>How we can help</h3>
+            <p>M & A</p>
+            <p>Capital Raise</p>
+            <p>Consulting</p>
           </article>
         </div>
       </section>
