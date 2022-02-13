@@ -1,12 +1,10 @@
 import React from 'react';
+import { year } from '../utils/yearGenerator';
 
 const Footer = () => {
   return (
     <footer className="section footer">
-      <p className="copyright">
-        copyright &copy; backroads travel tour company <span id="date"></span>.
-        all rights reserved
-      </p>
+      <p className="copyright">&copy; {year} by KORUS</p>
     </footer>
   );
 };

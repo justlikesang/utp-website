@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Service from './components/Service';
 import Approach from './components/Approach';
+import Footer from './components/Footer';
 
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 /* 
@@ -22,6 +23,7 @@ function App() {
       {/* <Route exact path="/">
         <Approach />
       </Route> */}
+      <Footer />
     </Router>
   );
 }
